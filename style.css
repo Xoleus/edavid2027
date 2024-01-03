@@ -12,9 +12,9 @@
 body{
     min-height: 100vh;
     background-position: center;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(bgpic.jpeg);
 }
 .header{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(bgpic.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -116,13 +116,6 @@ h1, h2, h3, p{
         text-align: left;
         z-index: 2;
     }
-}
-.back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    filter: brightness(0.5);
 }
 @media(max-width: 700px){
     .text-box h2{
