@@ -12,6 +12,7 @@
 body{
     min-height: 100vh;
     background-position: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(bgpic.jpg);
 }
 .header{
     background-position: center;
